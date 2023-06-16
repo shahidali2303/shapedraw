@@ -1377,7 +1377,7 @@ body {
 /*----------------------------------------------------*/
 .arck-service-section {
   padding: 130px 0px;
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
 }
 
 .arck-service-content {
@@ -1880,7 +1880,7 @@ body {
 }
 
 .about-page-about-section {
-  padding: 130px 0px 180px;
+  padding: 100px 0px 100px;
 }
 
 .about-page-about-content .arck-about-img-wrapper .shape1 {
@@ -7152,7 +7152,7 @@ body {
 }
 
 .archx-social-content .archx-social-item {
-  width: 16.667%;
+  width: 33.33%;
 }
 .archx-social-content .archx-social-item a {
   height: 100px;
