@@ -43,10 +43,7 @@
       >
         <div class="brand-logo">
           <a href="index.html"
-            ><img
-              src="assets/img/logo/Website-logo-Shape-draw (3).png"
-              width="70%"
-              alt=""
+            ><img src="assets/img/logo/logo-shape-draw.png" width="70%" alt=""
           /></a>
         </div>
         <div class="arck-main-navigation-wrap">
@@ -643,20 +640,26 @@
                   <div class="brand-logo">
                     <a href="#"
                       ><img
-                        src="assets/img/logo/Website-logo-Shape-draw (3).png"
+                        src="assets/img/logo/logo-shape-draw.png"
                         alt=""
                         style="width: 80%"
                     /></a>
                   </div>
                   <div class="logo-text">
-                    The world’s first and largest digital marketplace for crypto
-                    collectibles and non-fungible tokens (NFTs). Buy
+                    We unlock innovation in modern trends and present our
+                    clients with the taste of ultimate designs in one place.
                   </div>
                   <div class="footer-social ul-li footer-icon">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-behance"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100085897586677"
+                      target="_blank"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a
+                      href="https://www.instagram.com/shapedraw_studio"
+                      target="_blank"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
                   </div>
                 </div>
               </div>
@@ -666,11 +669,11 @@
                 <div class="menu-widget ul-li-block">
                   <h3 class="widget-title">Quick Links</h3>
                   <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Our Services</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="service.html">Our Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="architecture.html">Architecture</a></li>
+                    <li><a href="interior-design.html">Interior Design</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
                   </ul>
                 </div>
               </div>
@@ -694,7 +697,7 @@
                           class="fas fa-phone-alt"
                           style="margin-right: 5px"
                         ></i>
-                        +91 9971723304
+                        <a href="tel:919971723304">+91 9971723304</a>
                       </li>
                     </ul>
                   </div>
@@ -704,7 +707,14 @@
           </div>
         </div>
         <div class="arck-footer-copyright text-center pt-5">
-          © 2023 All rights reserved Shapedraw.in
+          <div class="cs-copyright">
+            Copyright © <span id="currentYear"></span> All rights reserved
+            Shapedraw.
+            <script>
+              var year = new Date().getFullYear();
+              document.getElementById("currentYear").textContent = year;
+            </script>
+          </div>
         </div>
       </div>
     </footer>

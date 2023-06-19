@@ -1,8 +1,10 @@
 :root {
   /* #ff6b61 in decimal RGB */
   /* --main-color: rgb(255, 107, 97); */
-  --main-color: #d28f51;
-  --main-color-2: #d28f51;
+  /* --main-color: #d28f51;
+  --main-color-2: #d28f51; */
+  --main-color: #be902f;
+  --main-color-2: #be902f;
 
   /* #1a1a1a in decimal RGB */
   --black-color: rgb(26, 26, 26);
