@@ -359,7 +359,8 @@ body {
 }
 
 .inner-page-padding {
-  padding: 125px 0px;
+  /* padding: 125px 0px; */
+  padding-bottom: 125px;
 }
 
 .arck-pagination {
@@ -1376,7 +1377,9 @@ body {
 /*Service area*/
 /*----------------------------------------------------*/
 .arck-service-section {
-  padding: 130px 0px;
+  /* padding: 130px 0px; */
+  padding-top: 130px;
+
   /* background-color: #f4f4f4; */
 }
 
@@ -2231,7 +2234,7 @@ body {
 .arck-project-details-text li {
   padding-left: 25px;
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 .arck-project-details-text li:before {
   top: 0;
@@ -2314,7 +2317,7 @@ body {
 /*Work Process area*/
 /*----------------------------------------------------*/
 .arck-work-process-section {
-  padding-bottom: 150px;
+  /* padding-bottom: 150px; */
 }
 
 .arck-work-process-content {
@@ -8664,6 +8667,7 @@ body {
   }
   .inner-page-padding {
     padding: 60px 0px;
+    /* padding-bottom: 60px; */
   }
   .shop-details-text-wrap .arck-code-category li {
     margin-right: 10px;
@@ -8731,4 +8735,12 @@ body {
 .service-area h2 {
   font-weight: 500;
   /* padding: 20px 0 30px; */
+}
+@media (max-width: 768px) {
+  .result-img {
+    display: none;
+  }
+}
+.active-btn {
+  color: #be902f;
 }
