@@ -8751,7 +8751,7 @@ body {
 }
 .new-edited-button {
   /* background-color: #fff; */
-  background-color: black;
+  /* background-color: black; */
   color: white;
   border-radius: 10px;
 }
@@ -8765,4 +8765,9 @@ body {
   border: 1px solid black;
 
   transition: 0.2s ease-out;
+}
+@media (max-width: 768px) {
+  .photo-slide-section {
+    display: none;
+  }
 }
